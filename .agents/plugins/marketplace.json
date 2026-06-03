@@ -8,7 +8,7 @@
       "name": "signalpilot",
       "source": {
         "source": "local",
-        "path": "."
+        "path": "./plugins/signalpilot"
       },
       "policy": {
         "installation": "AVAILABLE",
