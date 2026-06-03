@@ -1,0 +1,40 @@
+{
+  "name": "signalpilot",
+  "version": "1.0.0",
+  "description": "Governed AI database access for dbt and SQL with sandboxed queries, schema discovery, and model-building workflows.",
+  "author": {
+    "name": "SignalPilot Labs",
+    "url": "https://github.com/SignalPilot-Labs"
+  },
+  "homepage": "https://signalpilot.ai",
+  "repository": "https://github.com/SignalPilot-Labs/codex-signalpilot-plugin",
+  "license": "Apache-2.0",
+  "keywords": [
+    "dbt",
+    "sql",
+    "database",
+    "analytics",
+    "data-engineering",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "SignalPilot",
+    "shortDescription": "Governed database and dbt workflows for Codex.",
+    "longDescription": "SignalPilot adds governed SQL, schema discovery, and dbt workflow skills for agents working with analytics projects.",
+    "developerName": "SignalPilot Labs",
+    "category": "Data",
+    "capabilities": [
+      "Write",
+      "Database",
+      "Automation"
+    ],
+    "websiteURL": "https://signalpilot.ai",
+    "brandColor": "#2563EB",
+    "defaultPrompt": [
+      "Use SignalPilot to inspect this dbt project.",
+      "Build and verify a dbt model.",
+      "Write a governed SQL query."
+    ]
+  }
+}
