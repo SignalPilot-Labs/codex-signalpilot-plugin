@@ -19,13 +19,13 @@ codex mcp add --transport http signalpilot http://localhost:3300/mcp
 
 ```bash
 codex plugin marketplace add SignalPilot-Labs/codex-signalpilot-plugin
-codex plugin add signalpilot@codex-signalpilot-plugin
+codex plugin add signalpilot@signalpilot
 ```
 
 One-line install:
 
 ```bash
-codex plugin marketplace add SignalPilot-Labs/codex-signalpilot-plugin && codex plugin add signalpilot@codex-signalpilot-plugin
+codex plugin marketplace add SignalPilot-Labs/codex-signalpilot-plugin && codex plugin add signalpilot@signalpilot
 ```
 
 Step 1 gives you the SignalPilot MCP tools. Step 2 adds Codex skills on top.
